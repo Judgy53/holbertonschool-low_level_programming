@@ -8,5 +8,6 @@
 #include "3-puts.h"
 #include "4-print_rev.h"
 #include "5-rev_string.h"
+#include "6-puts2.h"
 
 #endif
