@@ -1,4 +1,4 @@
-#include "main.h"
+#include "0-reset_to_98.h"
 
 /**
  * reset_to_98 - set the integer to 98
