@@ -1,4 +1,3 @@
-#include "7-puts_half.h"
 #include "_putchar.h"
 
 /**

@@ -2,15 +2,16 @@
 #define HEADER_MAIN
 
 #include "_putchar.h"
-#include "0-reset_to_98.h"
-#include "1-swap.h"
-#include "2-strlen.h"
-#include "3-puts.h"
-#include "4-print_rev.h"
-#include "5-rev_string.h"
-#include "6-puts2.h"
-#include "7-puts_half.h"
-#include "8-print_array.h"
-#include "9-strcpy.h"
+
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
 
 #endif

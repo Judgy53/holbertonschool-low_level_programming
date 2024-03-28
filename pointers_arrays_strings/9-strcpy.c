@@ -1,5 +1,3 @@
-#include "9-strcpy.h"
-
 /**
  * _strcpy - copy the string pointed to by src to dest
  * @dest: pointer to destination buffer

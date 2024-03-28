@@ -1,5 +1,3 @@
-#include "5-rev_string.h"
-
 /**
  * rev_string - reverse a string
  * @s: string to reverse

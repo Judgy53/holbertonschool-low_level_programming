@@ -1,4 +1,3 @@
-#include "4-print_rev.h"
 #include "_putchar.h"
 
 /**

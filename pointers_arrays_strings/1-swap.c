@@ -1,5 +1,3 @@
-#include "1-swap.h"
-
 /**
  * swap_int - swap the values of two integers
  * @a: first integer, will receive the value of b

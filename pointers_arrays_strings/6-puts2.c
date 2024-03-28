@@ -1,4 +1,3 @@
-#include "6-puts2.h"
 #include "_putchar.h"
 
 /**

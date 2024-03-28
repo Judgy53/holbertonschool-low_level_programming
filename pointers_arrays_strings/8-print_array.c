@@ -1,4 +1,3 @@
-#include "8-print_array.h"
 #include <stdio.h>
 
 /**

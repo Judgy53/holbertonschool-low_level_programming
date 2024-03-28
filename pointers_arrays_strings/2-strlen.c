@@ -1,5 +1,3 @@
-#include "2-strlen.h"
-
 /**
  * _strlen - calculates the length of the string
  * @s: string which length you want to know
