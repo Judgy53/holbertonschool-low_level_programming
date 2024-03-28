@@ -11,5 +11,6 @@
 #include "6-puts2.h"
 #include "7-puts_half.h"
 #include "8-print_array.h"
+#include "9-strcpy.h"
 
 #endif
