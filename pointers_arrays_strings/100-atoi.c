@@ -11,9 +11,9 @@ int _atoi(char *s)
 	int negative = 0;
 	int parsing_started = 0;
 
-	while (s[index] != '\0')
+	while (*(s + index) != '\0')
 	{
-		char c = s[index];
+		char c = *(s + index);
 
 		if (c >= '0' && c <= '9')
 		{
