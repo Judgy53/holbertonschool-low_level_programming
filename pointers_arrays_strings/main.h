@@ -10,5 +10,6 @@
 #include "5-rev_string.h"
 #include "6-puts2.h"
 #include "7-puts_half.h"
+#include "8-print_array.h"
 
 #endif
