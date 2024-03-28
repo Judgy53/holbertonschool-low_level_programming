@@ -1,5 +1,4 @@
 #include "4-print_rev.h"
-#include "2-strlen.h"
 #include "_putchar.h"
 
 /**
@@ -10,7 +9,12 @@
  */
 void print_rev(char *s)
 {
-	int index = _strlen(s) - 1;
+	int index = 0;
+	
+	while (s[index] != '\0')
+		index++;
+
+	index--; /* Don't print null char */
 
 	while (index >= 0)
 	{
