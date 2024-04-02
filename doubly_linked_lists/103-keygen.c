@@ -22,7 +22,9 @@ int main(int argc, char **argv)
 	int magic_index;
 	int name_length;
 	char *name;
-	char *magic_string = "A-CHRDw87lNS0E9B2TibgpnMVys5XzvtOGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk";
+	char magic_string[64] = "A-CHRDw87lNS0E9B2TibgpnMVys5Xzvt";
+
+	strcat(magic_string, "OGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk");
 
 	if (argc != 2)
 	{
