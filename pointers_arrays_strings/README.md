@@ -7,22 +7,22 @@ All projects comply to the [Betty](https://github.com/hs-hq/Betty) style.
 ## 0-reset_to_98.c - 98 Battery st.
 Function that takes a pointer to an int as parameter and updates the value it points to to 98.
 - Prototype: `void reset_to_98(int *n);`
-## 1-swap.c - Don't swap horses in crossing a stream 
+## 1-swap.c - Don't swap horses in crossing a stream
 Function that swaps the values of two integers.
 - Prototype: `void swap_int(int *a, int *b);`
-## 2-strlen.c - This report, by its very length, defends itself against the risk of being read 
+## 2-strlen.c - This report, by its very length, defends itself against the risk of being read
 Function that returns the length of a string.
 - Prototype: `int _strlen(char *s);`
-## 3-puts.c - I do not fear computers. I fear the lack of them 
+## 3-puts.c - I do not fear computers. I fear the lack of them
 Function that prints a string, followed by a new line, to stdout.
 - Prototype: `void _puts(char *str);`
-## 4-print_rev.c - I can only go one way. I've not got a reverse gear 
+## 4-print_rev.c - I can only go one way. I've not got a reverse gear
 Function that prints a string, in reverse, followed by a new line.
 - Prototype: `void print_rev(char *s);`
 ## 5-rev_string.c - A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
 Function that reverses a string.
 - Prototype: `void rev_string(char *s);`
-## 6-puts2.c - Half the lies they tell about me aren't true 
+## 6-puts2.c - Half the lies they tell about me aren't true
 Function that prints every other character of a string, starting with the first character, followed by a new line.
 - Prototype: `void puts2(char *str);`
 ## 7-puts_half.c - Winning is only half of it. Having fun is the other half
@@ -46,7 +46,7 @@ Function that convert a string to an integer.
 - The number in the string can be preceded by an infinite number of characters
 - You need to take into account all the - and + signs before the number
 - If there are no numbers in the string, the function must return 0
-## 101-keygen.c - Don't hate the hacker, hate the code 
+## 101-keygen.c - Don't hate the hacker, hate the code
 Program that generates random valid passwords for the program [101-crackme](https://github.com/hs-hq/0x04.c).
 - Usage:
   ```bash
